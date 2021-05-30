@@ -19,6 +19,12 @@ footer {
   color: var(--first-colour);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--first-colour);
+  &:hover,
+  &:focus {
+    color: var(--akcent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .footer-contacts {
@@ -28,6 +34,12 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--akcent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 .adreess-link:not(:last-child) {
   margin-bottom: 9px;
@@ -36,18 +48,6 @@ footer {
 .footer-wraper-social {
   width: 206px;
   height: 80px;
-}
-.adress-item:hover,
-.adress-item:focus {
-  color: var(--akcent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--akcent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-list {
@@ -58,6 +58,9 @@ footer {
 .icon-list-item {
   box-sizing: inherit;
   justify-content: space-between;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .icon-item-link {
   display: flex;
@@ -68,13 +71,14 @@ footer {
   border-radius: 50%;
   background-color: var(--footervectorsbg);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--akcent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-.icon-item-link:hover,
-.icon-item-link:focus {
-  background-color: var(--akcent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .footer-icons {
   fill: var(--first-colour);
 }
@@ -90,9 +94,7 @@ footer {
   color: var(--first-colour);
   margin-bottom: 20px;
 }
-.icon-list-item:not(:last-child) {
-  margin-right: 10px;
-}
+
 .signup-text {
   width: 219px;
   height: 16px;

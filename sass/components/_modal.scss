@@ -22,12 +22,12 @@
   border-radius: 50%;
   cursor: pointer;
   background-position: top;
+  &:hover,
+  &:focus {
+    fill: var(--akcent-color);
+  }
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  fill: var(--akcent-color);
-}
 .is-hidden {
   opacity: 0;
   visibility: hidden;

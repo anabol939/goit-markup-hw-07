@@ -7,10 +7,11 @@
   border-radius: 0px 0px 4px 4px;
   width: 270px;
   background: var(--second-colour);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.section4-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .section4-teem {
   padding-top: 30px;
   padding-bottom: 30px;
