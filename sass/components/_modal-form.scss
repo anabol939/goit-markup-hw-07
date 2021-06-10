@@ -109,7 +109,6 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 40px;
   text-align: center;
   &::before {
     content: '';
@@ -121,7 +120,7 @@
     margin-right: 8px;
     cursor: pointer;
   }
-  .modal-form-term:checked + & {
+  .modal-form-term:checked + &::before {
     background-image: url(../images/chekbox/icon-check.svg);
     background-position: center;
     background-color: var(--akcent-color);

@@ -3,7 +3,8 @@
   padding-bottom: 94px;
 }
 .partners-icon {
-  fill: var(--vectors);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .partners-link:hover & {
     fill: var(--akcent-color);
     transition-duration: 250ms;
@@ -29,7 +30,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &:focus .partners-thumb {
+  &:focus {
     border: 1px solid var(--akcent-color);
 
     outline: none;
