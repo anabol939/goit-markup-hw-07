@@ -11,11 +11,11 @@ footer {
   letter-spacing: 0.03em;
   margin-top: 20px;
 }
-.footer-wraper {
+.footer__wraper {
   margin-right: 70px;
 }
 
-.adress-item {
+.adress__link {
   display: block;
 
   white-space: nowrap;
@@ -30,7 +30,7 @@ footer {
   }
 }
 
-.footer-contacts {
+.footer__contacts {
   display: block;
   font-weight: 400;
   line-height: 1.71;
@@ -44,28 +44,28 @@ footer {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.adreess-link:not(:last-child) {
+.adreess__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-wraper-social {
+.footer__wraper-social {
   width: 206px;
   height: 80px;
 }
 
-.icon-list {
+.icon__list {
   display: flex;
   justify-content: space-between;
 }
 
-.icon-list-item {
+.icon__item {
   box-sizing: inherit;
   justify-content: space-between;
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
-.icon-item-link {
+.icon__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@ footer {
   }
 }
 
-.footer-icons {
+.footer__icons {
   fill: var(--first-colour);
 }
 .invitation {
@@ -98,7 +98,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.signup-text {
+.signup__text {
   width: 219px;
   height: 16px;
   left: 815px;
@@ -132,15 +132,15 @@ footer input {
   width: 100%;
 }
 
-.signup-wrap {
+.signup__wrap {
   align-items: center;
   display: flex;
 }
 
-.signup-wrap .footer-icons {
+.signup__wrap .footer__icons {
   margin-left: 10px;
 }
-.footer-wraper-form {
+.footer__form {
   margin-left: 93px;
 }
 .main-footer-list {

@@ -26,44 +26,44 @@
   <body>
     <!--заголовок-->
     <header class="header">
-      <div class="header-container">
-        <nav class="navigation">
+      <div class="header__container">
+        <nav class="menu">
           <a
-            class="logo-light-teme logo-text-header logo link"
+            class="menu__logo-light-teme logo-text-header logo link"
             href="./portfolio.html"
             ><span class="logo-text">Web</span>Studio</a
           >
 
-          <ul class="navigation-list list">
-            <li class="navigation-item">
-              <a class="navigation-link link" href="./index.html">Студия</a>
+          <ul class="menu__list list">
+            <li class="menu__item">
+              <a class="menu__link link" href="./index.html">Студия</a>
             </li>
 
-            <li class="navigation-item">
+            <li class="menu__item">
               <a
-                class="navigation-link link active-page-link"
+                class="menu__link menu__active-page link"
                 href="./portfolio.html"
-                ><span class="active">Портфолио</span></a
+                ><span class="menu__active">Портфолио</span></a
               >
             </li>
 
-            <li class="navigation-item">
-              <a class="navigation-link link" href="">Контакты</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="contact-list list">
-          <li class="header-links-item">
-            <a href="mailto:info@devstudio.com" class="contact-link link"
+        <ul class="contact__list list">
+          <li class="contact__links-item">
+            <a href="mailto:info@devstudio.com" class="contact__link link"
               ><svg class="header-icons" fill="currentColour">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-links-item">
-            <a href="tel:+380961111111" class="contact-link link"
+          <li class="contact__links-item">
+            <a href="tel:+380961111111" class="contact__link link"
               ><svg class="header-icons-tel" fill="currentColour">
                 <use href="./images/sprite.svg#icon-Vector"></use>
               </svg>
@@ -76,35 +76,35 @@
     <main>
       <!--Herro-->
 
-      <section class="herro-portfolio">
+      <section class="herro__portfolio">
         <div class="container">
-          <h1 class="herro-title visually-hidden">Основной блок</h1>
-          <ul class="herro-list list">
-            <li class="herro-link">
+          <h1 class="herro__title visually-hidden">Основной блок</h1>
+          <ul class="herro__list list">
+            <li class="herro__link">
               <button class="model-btn1" type="submit">Все</button>
             </li>
-            <li class="herro-link">
+            <li class="herro__link">
               <button class="model-btn1" type="submit">Веб-сайты</button>
             </li>
-            <li class="herro-link">
+            <li class="herro__link">
               <button class="model-btn1" type="submit">Приложения</button>
             </li>
-            <li class="herro-link">
+            <li class="herro__link">
               <button class="model-btn1" type="submit">Дизайн</button>
             </li>
-            <li class="herro-link">
+            <li class="herro__link">
               <button class="model-btn1" type="submit">Маркетинг</button>
             </li>
           </ul>
 
           <!--ABOUT-->
 
-          <ul class="about-list-portfolio list">
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href=""
-                ><div class="teem-list-content-wraper">
+          <ul class="cardset list">
+            <li class="cardset__items">
+              <a class="cardset__link link" href=""
+                ><div class="cardset__wraper">
                   <img
-                    class="img-about"
+                    class="cardset__img"
                     src="./images/portfolio/img1.jpg"
                     alt="ноутбук"
                     width="370"
@@ -116,17 +116,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">Технокряк</h2>
-                  <p class="about-item link">Веб-сайт</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Технокряк</h2>
+                  <p class="features__item link">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href=""
-                ><div class="teem-list-content-wraper">
+            <li class="cardset__items">
+              <a class="cardset__link link" href=""
+                ><div class="cardset__wraper">
                   <img
-                    class="img-about"
+                    class="cardset__img"
                     src="./images/portfolio/img2.jpg"
                     alt="постер"
                     width="370"
@@ -139,19 +139,17 @@
                   </p>
                 </div>
 
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">
-                    New Orlean vs Golden Star
-                  </h2>
-                  <p class="about-item link">Дизайн</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">New Orlean vs Golden Star</h2>
+                  <p class="features__item link">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href=""
-                ><div class="teem-list-content-wraper">
+            <li class="cardset__items">
+              <a class="cardset__link link" href=""
+                ><div class="cardset__wraper">
                   <img
-                    class="img-about"
+                    class="cardset_img"
                     src="./images/portfolio/img3.jpg"
                     alt="ресторан"
                     width="370"
@@ -163,17 +161,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">Seafood</h2>
-                  <p class="about-item link">Приложение</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Seafood</h2>
+                  <p class="features__item link">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href="">
-                <div class="teem-list-content-wraper">
+            <li class="cardset__items">
+              <a class="cardset__link link" href="">
+                <div class="cardset__wraper">
                   <img
-                    class="img-about"
+                    class="cardset__img"
                     src="./images/portfolio/img4.jpg"
                     alt="наушники"
                     width="370"
@@ -185,17 +183,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">Prime</h2>
-                  <p class="about-item link">Маркетинг</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Prime</h2>
+                  <p class="features__item link">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href="">
-                <div class="teem-list-content-wraper">
+            <li class="cardset__items">
+              <a class="cardset__link link" href="">
+                <div class="cardset__wraper">
                   <img
-                    class="img-about"
+                    class="cardset__img"
                     src="./images/portfolio/img5.jpg"
                     alt="проект"
                     width="370"
@@ -207,14 +205,14 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">Boxes</h2>
-                  <p class="about-item link">Приложение</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Boxes</h2>
+                  <p class="features__item link">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href=""
+            <li class="cardset__items">
+              <a class="cardset__link link" href=""
                 ><div class="teem-list-content-wraper">
                   <img
                     class="img-about"
@@ -229,17 +227,15 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">
-                    Inspiration has no Borders
-                  </h2>
-                  <p class="about-item link">Веб-сайт</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Inspiration has no Borders</h2>
+                  <p class="features__item link">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href=""
-                ><div class="teem-list-content-wraper">
+            <li class="cardset__items">
+              <a class="cardset__link link" href=""
+                ><div class="cardset__wraper">
                   <img
                     class="img-about"
                     src="./images/portfolio/img7.jpg"
@@ -253,15 +249,15 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">Издание Limited Edition</h2>
-                  <p class="about-item link">Дизайн</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Издание Limited Edition</h2>
+                  <p class="features__item link">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href=""
-                ><div class="teem-list-content-wraper">
+            <li class="cardset__items">
+              <a class="cardset__link link" href=""
+                ><div class="cardset__wraper">
                   <img
                     class="img-about"
                     src="./images/portfolio/img8.jpg"
@@ -275,15 +271,15 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">Проект LAB</h2>
-                  <p class="about-item link">Маркетинг</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Проект LAB</h2>
+                  <p class="features__item link">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="about-link">
-              <a class="teem-list-link-wraper link" href=""
-                ><div class="teem-list-content-wraper">
+            <li class="cardset__items">
+              <a class="cardset__link link" href=""
+                ><div class="cardset__wraper">
                   <img
                     class="img-about"
                     src="./images/portfolio/img9.jpg"
@@ -297,9 +293,9 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="about-border-portfolio">
-                  <h2 class="about-title-portfolio">Growing Business</h2>
-                  <p class="about-item link">Приложение</p>
+                <div class="cardset__meta">
+                  <h2 class="cardset__name">Growing Business</h2>
+                  <p class="features__item link">Приложение</p>
                 </div></a
               >
             </li>
@@ -309,82 +305,82 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-wraper">
+      <div class="footer__container">
+        <div class="footer__wraper">
           <a
             class="logo-footer-link link logo-dark-teme logo-text-header"
             href="./index.html"
             ><span class="logo-text">Web</span>Studio</a
           >
           <address class="adress">
-            <ul class="adreess-list list">
-              <li class="adreess-link">
+            <ul class="adreess__list list">
+              <li class="adreess__item">
                 <a
-                  class="adress-item link"
+                  class="adress__link link"
                   href="https://goo.gl/maps/v6v7mnVKabn46PNZ7"
                   target="blank"
                   rel="noopener noreferrer"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="adreess-link">
-                <a class="footer-contacts link" href="mailto:info@example.com"
+              <li class="adreess__item">
+                <a class="footer__contacts link" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li class="adreess-link">
-                <a class="footer-contacts link" href="+380991111111"
+              <li class="adreess__item">
+                <a class="footer__contacts link" href="+380991111111"
                   >+380991111111</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-wraper-social">
+        <div class="footer__wraper-social">
           <p class="invitation">Присоединяйтесь</p>
-          <ul class="icon-list list">
-            <li class="icon-list-item">
-              <a href="" class="icon-item-link">
-                <svg class="footer-icons" width="20px" height="20px">
+          <ul class="icon__list list">
+            <li class="icon__item">
+              <a href="" class="icon__link">
+                <svg class="footer__icons" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
-              <a href="" class="icon-item-link">
-                <svg class="footer-icons" width="20px" height="20px">
+            <li class="icon__item">
+              <a href="" class="icon__link">
+                <svg class="footer__icons" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-Vector6"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
-              <a href="" class="icon-item-link">
-                <svg class="footer-icons" width="20px" height="20px">
+            <li class="icon__item">
+              <a href="" class="icon__link">
+                <svg class="footer__icons" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-Vector7"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
-              <a href="" class="icon-item-link">
-                <svg class="footer-icons" width="20px" height="20px">
+            <li class="icon__item">
+              <a href="" class="icon__link">
+                <svg class="footer__icons" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer-wraper-form">
-          <p class="signup-text">Подпишитесь на рассылку</p>
+        <div class="footer__form">
+          <p class="signup__text">Подпишитесь на рассылку</p>
 
-          <div class="signup-wrap">
-            <form name="signup_form" autocomplete="on" novalidate>
+          <div class="signup__wrap">
+            <form name="signup__form" autocomplete="on" novalidate>
               <label>
                 <input type="email" name="email" placeholder="E-mail" />
               </label>
             </form>
-            <button type="submit" class="sign-btn">
+            <button type="submit" class="sign__btn">
               Подписаться
-              <svg class="footer-icons" width="24" height="24">
+              <svg class="footer__icons" width="24" height="24">
                 <use href="./images/sprite.svg#icon-iconsend2"></use>
               </svg>
             </button>

@@ -15,11 +15,3 @@
   color: var(--first-colour);
   overflow: auto;
 }
-.teem-list-content-wraper {
-  position: relative;
-  overflow: hidden;
-}
-.teem-list-link-wraper:hover .overlay,
-.teem-list-link-wraper:focus .overlay {
-  transform: translateY(0%);
-}

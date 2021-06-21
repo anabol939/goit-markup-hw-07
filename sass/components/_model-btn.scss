@@ -59,7 +59,7 @@
   }
 }
 
-.sign-btn {
+.sign__btn {
   width: 200px;
   height: 50px;
   background: var(--akcent-color);
@@ -73,7 +73,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer .sign-btn {
+.footer .sign__btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;

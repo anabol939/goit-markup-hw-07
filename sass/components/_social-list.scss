@@ -1,4 +1,4 @@
-.social-list-link {
+.social__list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,20 +15,16 @@
   }
 }
 
-.social-list {
+.social {
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
 }
-.social-list-icon {
+.social__list-icon {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-item {
+.social__list-item {
   display: flex;
   justify-content: space-between;
-}
-.social-list-icon {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

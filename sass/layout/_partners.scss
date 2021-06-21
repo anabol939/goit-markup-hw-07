@@ -2,16 +2,16 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.partners-icon {
+.partners__icon {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .partners-link:hover & {
+  .partners__link:hover & {
     fill: var(--akcent-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.partners-link {
+.partners__link {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -37,7 +37,7 @@
   }
 }
 
-.partners-list {
+.partners__list {
   display: flex;
   justify-content: space-between;
 }
